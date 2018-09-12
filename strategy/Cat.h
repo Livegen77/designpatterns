@@ -3,6 +3,10 @@
 
 #include "IPet.h"
 
+/*!
+ * \brief Concrete strategy Cat 
+ * 
+ */
 class Cat: public IPet {
  public:
   Cat() {

@@ -5,6 +5,10 @@
 
 #include "IPet.h"
 
+/*!
+ * \brief Concrete strategy Bird 
+ * 
+ */
 class Dog: public IPet {
  public:
   Dog() {
